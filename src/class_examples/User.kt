@@ -11,14 +11,14 @@ fun main(args: Array<String>) {
     user.name = "John"
     println(user.name)
 
-    println(test(5, 6))
+    println(returnGreater(5, 6))
 
-    enumWhen(Days.WEDNESDAY)
+    whenExample(Days.WEDNESDAY)
 }
 
-fun test(a: Int, b: Int) = if (a > b) a else b
+fun returnGreater(a: Int, b: Int) = if (a > b) a else b
 
-fun enumWhen(d: Days) {
+fun whenExample(d: Days) {
     when (d) {
         Days.MONDAY -> print("monday")
         Days.TUESDAY -> print("tuesday")
