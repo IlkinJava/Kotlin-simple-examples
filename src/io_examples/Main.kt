@@ -2,7 +2,7 @@ package io_examples
 
 fun main(args: Array<String>) {
     println("Hello Kotlin")
-    println(add(10, 5))
+    println(sum(10, 5))
     var i: Int
     val j = "Hello World"
     val tmp = 5
@@ -12,4 +12,4 @@ fun main(args: Array<String>) {
 
 }
 
-fun add(a: Int, b: Int) = a + b
+fun sum(a: Int, b: Int) = a + b
